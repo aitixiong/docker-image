@@ -1,0 +1,11 @@
+# https://gwgw.ga/fidx.html#/webd/
+# webd-20220512-linux-aarch64.tar.gz webd-20220512-linux-x86_64.tar.gz
+
+docker build -f Dockerfile . -t liuyunwuhen/webd:amd64
+docker build -f Dockerfile . -t liuyunwuhen/webd:arm64
+docker login
+docker push liuyunwuhen/webd:amd64
+docker push liuyunwuhen/webd:arm64
+docker manifest create liuyunwuhen/webd liuyunwuhen/webd:amd64 liuyunwuhen/webd:arm64
+docker manifest push liuyunwuhen/webd
+docker manifest rm liuyunwuhen/webd
