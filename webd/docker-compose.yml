@@ -5,10 +5,6 @@ services:
     restart: always
     ports:
       - 80:80
-    #  - 10443:443
-    #  - 10180:8080
-    #  - 10124:8024
-    #  - 10150-10179:10150-10179
     #volumes:
             # - ./web:/webd/web
             # - ./webd.conf:/webd/webd.conf  
