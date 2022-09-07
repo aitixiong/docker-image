@@ -1,0 +1,23 @@
+---
+version: "2"
+services:
+  transmission:
+    image: liuyunwuhen/alpine-transmission:arm64v8-2.94 #linuxserver/transmission
+    restart: unless-stopped
+    container_name: transmission2.94
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Shanghai
+      - TRANSMISSION_WEB_HOME=/transmission-web-control/
+      - USER=admin #optional
+      - PASS=admin #optional
+#      - WHITELIST=iplist #optional
+    volumes:
+      - ./config:/config
+      - /mnt/data/downloads:/downloads
+      - ./watch:/watch
+    ports:
+      - 9091:9091
+      - 51413:51413
+      - 51413:51413/udp

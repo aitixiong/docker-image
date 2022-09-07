@@ -1,0 +1,4 @@
+FROM liuyunwuhen/proxypool
+
+COPY ./proxypool /proxy/mogenius
+ENTRYPOINT ["/proxy/proxypool", "-d", "-c", "mogenius/config.yaml"]

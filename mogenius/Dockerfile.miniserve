@@ -1,0 +1,4 @@
+FROM svenstaro/miniserve:latest
+
+COPY ./miniserve /app/files
+ENTRYPOINT ["/app/miniserve", "-D", "-c", "archlinux", "-z", "-g", "/app/files"]

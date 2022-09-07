@@ -1,0 +1,11 @@
+---
+version: "2"
+services:
+  vlmcsd:
+    image: liuyunwuhen/alpine-vlmcsd:arm64v8-v1113
+    restart: unless-stopped
+#    privileged: true
+    container_name: vlmcsd-v1113
+    ports:
+      - "1688:1688"
+#    command: /usr/bin/vlmcsd -L 0.0.0.0:1688 -v -e -D

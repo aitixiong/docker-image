@@ -1,0 +1,249 @@
+# 模糊抓取订阅链接
+- type: webfuzzsub
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+    
+## 耗时特别长
+#- type: webfuzzsub
+#  options:
+#    url: https://merlinblog.xyz/wiki/freess.html
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/airproxies
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/gulaiguq_baipiao2
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/app_jiedian
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/hkaa0
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/freekankan
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ednovasfree
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/dafeiji100
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/just_GD
+    
+#- type: webfuzzsub
+#  options:
+#    url: https://t.me/s/Jsnzk
+    
+#- type: webfuzzsub
+#  options:
+#    url: https://t.me/s/vpnhat
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/trojan
+    
+# 网页模糊抓取
+#- type: webfuzz
+#  options:
+#    url: https://merlinblog.xyz/wiki/freess.html
+    
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/yu-steven/openit/main/url
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssList
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200    
+    
+- type: tgchannel
+  options:
+    channel: SSRSUB
+    num: 200     
+
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ripaojiedian
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: hkaa0
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: ShareCentrePro
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: app_jiedian
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: gulaiguq_baipiao2
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: airproxies
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: mfjdpd
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: freekankan
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ednovasfree
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: aatt1916
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: SurfShark_ALA
+    num: 200    
+    
+- type: tgchannel
+  options:
+    channel: freebaipiao
+    num: 200    
+    
+- type: tgchannel
+  options:
+    channel: just_GD
+    num: 200
+    
+# 翻墙党论坛抓取
+#- type: web-fanqiangdang
+#  options:
+#    url: https://fanqiangdang.com/forum-48-1.html
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+
+- type: clash
+  options:
+    url: https://sharecentre.xyz/Clash.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+    
+- type: clash
+  options:
+    url: https://proxies.bihai.cf/clash/proxies
+      
+- type: clash
+  options:
+    url: https://proxypool.laowang.me/clash/proxies
+    
+- type: clash
+  options:
+    url: http://wxshi.top:9090/clash/proxies
+    
+- type: clash
+  options:
+    url: https://klausvpn.posyao.com/clash/proxies
+
+- type: clash
+  options:
+    url: http://121.37.67.232/clash/proxies   
+    
+- type: clash
+  options:
+    url: https://fq.lonxin.net/clash/proxies
+    
+- type: clash
+  options:
+    url: https://sspool.herokuapp.com/clash/proxies
+
+- type: clash
+  options:
+    url: https://free886.herokuapp.com/clash/proxies
+
+- type: clash
+  options:
+    url: https://free.dswang.ga/clash/proxies
+
+- type: clash
+  options:
+    url: http://39.106.12.141:8081/clash/proxies
+
+- type: clash
+  options:
+    url: https://us-proxypool.herokuapp.com/clash/proxies
+
+- type: clash
+  options:
+    url: https://eu-proxypool.herokuapp.com/clash/proxies
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
+    
+- type: clash
+  options:
+    url: https://openit.littlesite.ml/sub.yaml
+    
+# 某个网站抓取
+#- type: web-freessrxyz
+#  options:
