@@ -2,7 +2,7 @@
 version: "2"
 services:
   transmission:
-    image: liuyunwuhen/alpine-transmission:arm64v8-2.94 #linuxserver/transmission
+    image: liuyunwuhen/alpine-transmission #linuxserver/transmission
     restart: unless-stopped
     container_name: transmission2.94
     environment:
