@@ -40,6 +40,18 @@
   options:
     url: https://t.me/s/just_GD
     
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/jGDARn
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/kejixm123
+    
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/SurfShark_ALA
+    
 #- type: webfuzzsub
 #  options:
 #    url: https://t.me/s/Jsnzk
@@ -169,7 +181,12 @@
   options:
     channel: just_GD
     num: 200
-    
+      
+- type: tgchannel
+  options:
+    channel: kejixm123
+    num: 200
+
 # 翻墙党论坛抓取
 #- type: web-fanqiangdang
 #  options:
