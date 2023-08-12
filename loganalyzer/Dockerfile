@@ -8,7 +8,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
             touch /var/www/localhost/htdocs/config.php && \
             chmod  666 /var/www/localhost/htdocs/config.php          
 
-COPY loganalyzer/src /var/www/localhost/htdocs
+COPY loganalyzer-4.1.13-src/ /var/www/localhost/htdocs
 
 EXPOSE 80
  
