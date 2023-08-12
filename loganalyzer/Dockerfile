@@ -13,4 +13,3 @@ COPY loganalyzer-4.1.13-src/ /var/www/localhost/htdocs
 EXPOSE 80
  
 CMD ["httpd","-DFOREGROUND"]
-
