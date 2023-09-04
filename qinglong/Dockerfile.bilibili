@@ -1,0 +1,2 @@
+FROM whyour/qinglong
+RUN set -x && curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin

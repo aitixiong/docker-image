@@ -1,0 +1,1 @@
+docker buildx build -t aitixiong/vlmcsd:alpine --platform=linux/arm64,linux/amd64 . --push

@@ -1,0 +1,2 @@
+docker buildx build -t aitixiong/qinglong:bilibili --platform=linux/arm64,linux/amd64 -f Dockerfile.bilibili . --push
+docker buildx build -t aitixiong/qinglong:jd --platform=linux/arm64,linux/amd64 -f Dockerfile.jd . --push

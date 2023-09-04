@@ -1,6 +1,5 @@
 # your domain
-#domain: proxypool-prod-liuyun-agb682.mo2.mogenius.io
-domain: itfans.cf
+domain: proxypool.io
 port: 80
 
 # source list file
