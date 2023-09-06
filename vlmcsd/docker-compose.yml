@@ -2,7 +2,7 @@
 version: "2"
 services:
   vlmcsd:
-    image: liuyunwuhen/alpine-vlmcsd
+    image: aitixiong/vlmcsd:alpine
     restart: unless-stopped
 #    privileged: true
     container_name: vlmcsd-v1113

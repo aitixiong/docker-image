@@ -2,7 +2,7 @@
 version: "2"
 services:
   transmission:
-    image: liuyunwuhen/alpine-transmission #linuxserver/transmission
+    image: aitixiong/transmission:alpine #linuxserver/transmission
     restart: unless-stopped
     container_name: transmission2.94
     environment:

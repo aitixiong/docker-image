@@ -1,11 +1,15 @@
-# https://gwgw.ga/fidx.html#/webd/
-# webd-20220512-linux-aarch64.tar.gz webd-20220512-linux-x86_64.tar.gz
+# https://webd.cf/
 
-docker build -f Dockerfile . -t liuyunwuhen/webd:amd64
-docker build -f Dockerfile . -t liuyunwuhen/webd:arm64
-docker login
-docker push liuyunwuhen/webd:amd64
-docker push liuyunwuhen/webd:arm64
-docker manifest create liuyunwuhen/webd liuyunwuhen/webd:amd64 liuyunwuhen/webd:arm64
-docker manifest push liuyunwuhen/webd
-docker manifest rm liuyunwuhen/webd
+wget https://cnt2.cf/webd/20230604/webd-20230604-x86_64-pc-linux-gnu.tar.gz
+tar -zxvf webd-20230604-x86_64-pc-linux-gnu.tar.gz
+docker buildx build -t aitixiong/webd:amd64 --platform=linux/amd64 . --load
+rm -rf webd*
+wget https://cnt2.cf/webd/20230604/webd-20230604-aarch64-linux-gnu.tar.gz
+tar -zxvf webd-20230604-aarch64-linux-gnu.tar.gz
+docker buildx build -t aitixiong/webd:arm64 --platform=linux/arm64 . --load
+rm -rf webd*
+docker push aitixiong/webd:amd64
+docker push aitixiong/webd:arm64
+docker manifest create aitixiong/webd:latest aitixiong/webd:amd64 aitixiong/webd:arm64
+docker manifest push aitixiong/webd:latest
+docker manifest rm aitixiong/webd:latest

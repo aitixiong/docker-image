@@ -1,7 +1,7 @@
 version: '2'
 services:
   webd:
-    image: liuyunwuhen/webd
+    image: aitixiong/webd
     restart: always
     ports:
       - 80:80
